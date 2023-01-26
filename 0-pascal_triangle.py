@@ -1,8 +1,14 @@
-""" A Python Module To Generate Pascal's Triangel
+#!/usr/bin/python3
+""" 
+A Python Module To Generate Pascal's Triangel
 """
 
 
 def pascal_triangle(n):
+    """
+    returns a list containg of integers representing Pascal's triangle
+    argument: n [int] - size of the pascal triangel    
+    """
     if n <= 0:
         return []
     triangle = [[1]]

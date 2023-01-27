@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """ 
 A Python Module To Generate Pascal's Triangel
 """

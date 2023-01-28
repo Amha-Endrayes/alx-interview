@@ -8,9 +8,9 @@ def pascal_triangle(n):
     """
     Returns a list containig a list of integers representing
     Pascal's triangle of size n.
-    
+
     argument: n [int] - size of the triangle
-    
+
     """
     if type(n) is not int:
         raise TypeError("n must be an integer")

@@ -11,7 +11,7 @@ can be oppened.
 """
 
 
-def can_unlock_all(boxes):
+def canUnlockAll(boxes):
     """
     Determine if all boxes can be unlocked.
 

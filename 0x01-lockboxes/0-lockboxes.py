@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 
+
 def can_unlock_all(boxes):
     """
     Determine if all boxes can be unlocked.
-    
+
     Args:
-    boxes (list of lists): A list of lists where each sublist represents a box and contains
-        keys to other boxes. A key with the same number as a box opens that box.
-    
+    boxes (list of lists): A list of lists where each sublist represents
+    a box and contains keys to other boxes. A key with the same number as
+    a box opens that box.
+
     Returns:
     bool: True if all boxes can be unlocked, False otherwise.
     """
@@ -20,4 +22,4 @@ def can_unlock_all(boxes):
             if not opened[key]:  # If the box has not been unlocked yet.
                 opened[key] = True  # Mark the box as unlocked.
                 stack.append(key)  # Add the box to be checked for more keys.
-    return all(opened)  # Return True if all boxes have been unlocked, False otherwise.
+    return all(opened)

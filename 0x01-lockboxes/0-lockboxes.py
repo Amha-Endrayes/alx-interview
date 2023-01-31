@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 A python module that solves a box puzzel.
 Puzzel:
@@ -23,6 +24,7 @@ def canUnlockAll(boxes):
     Returns:
     bool: True if all boxes can be unlocked, False otherwise.
     """
+
     opened = [False] * len(boxes)  # Keep track of which boxes are unlocked.
     opened[0] = True  # The first box is assumed to be unlocked.
     stack = [0]  # The boxes to be checked for more keys.

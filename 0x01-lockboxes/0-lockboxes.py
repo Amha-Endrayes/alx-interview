@@ -25,13 +25,16 @@ def canUnlockAll(boxes):
     bool: True if all boxes can be unlocked, False otherwise.
     """
 
-    opened = [False] * len(boxes)  # Keep track of which boxes are unlocked.
-    opened[0] = True  # The first box is assumed to be unlocked.
-    stack = [0]  # The boxes to be checked for more keys.
-    while stack:  # Repeat until all boxes have been checked.
-        box = stack.pop()
-        for key in boxes[box]:
-            if not opened[key]:  # If the box has not been unlocked yet.
-                opened[key] = True  # Mark the box as unlocked.
-                stack.append(key)  # Add the box to be checked for more keys.
-    return all(opened)
+    if type(boxes) is not list:
+        return False
+    elif (len(boxes)) == 0:
+        return False
+    for k in range(1, len(boxes) - 1):
+        boxes_checked = False
+        for idx in range(len(boxes)):
+            boxes_checked = k in boxes[idx] and k != idx
+            if boxes_checked:
+                break
+        if boxes_checked is False:
+            return boxes_checked
+    return True

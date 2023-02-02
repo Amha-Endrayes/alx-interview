@@ -25,7 +25,6 @@ def canUnlockAll(boxes):
     bool: True if all boxes can be unlocked, False otherwise.
     """
 
-def canUnlockAll(boxes):
     if type(boxes) is not list:
         return False
     elif len(boxes) == 0:

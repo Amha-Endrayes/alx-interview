@@ -23,12 +23,22 @@ def minOperations(n):
 
     """
 
-    dp = [0] * (n + 1)
-    for i in range(2, n + 1):
-        dp[i] = dp[i - 1] + 1
-        j = 2
-        while j <= i // 2:
-            if dp[j] + 1 < dp[i]:
-                dp[i] = dp[j] + 1
-            j += 1
-    return dp[n]
+    if type(n) is not int or n <= 1:
+        return 0
+
+    operations = 0
+    characters = 1
+    copyFactor = 1
+
+    while characters < n:
+        if n % characters == 0:
+            copyFactor = characters
+            operations += 1
+
+        if characters != n:
+            characters += copyFactor
+            operations += 1
+        else:
+            break
+
+    return operations

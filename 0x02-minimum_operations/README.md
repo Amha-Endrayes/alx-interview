@@ -1,5 +1,4 @@
 # 0x02. Minimum Operations
-========================
 
 Requirements
 ------------
@@ -59,40 +58,3 @@ Number of operations: `6`
     carrie@ubuntu:~/0x02-minoperations$
     
 
-**Repo:**
-
-*   GitHub repository: `alx-interview`
-*   Directory: `0x02-minimum_operations`
-*   File: `0-minoperations.py`
-
-Done?! Help
-
-×
-
-#### Students who are done with "0. Minimum Operations"
-
-Check your code
-
-×
-
-#### Correction of "0. Minimum Operations"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed

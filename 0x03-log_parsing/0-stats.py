@@ -2,13 +2,14 @@
 """
 a script that reads <stdin> line by line and computes metrics
 """
-
 import sys
 import signal
+
 
 total_file_size = 0
 lines_by_status_code = {200: 0, 301: 0, 400: 0, 401: 0, 403: 0, 404: 0, 405: 0, 500: 0}
 line_count = 0
+
 
 # Define signal handler for CTRL + C
 def signal_handler(signal, frame):

@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+a script that reads <stdin> line by line and computes metrics
+"""
 
 import sys
 import signal
@@ -20,7 +23,7 @@ def parse_log_line(line):
     global total_file_size
     global lines_by_status_code
     global line_count
-    
+
     # Parse log line
     try:
         ip, date, request, status_code, file_size = line.split(" ")
@@ -30,7 +33,7 @@ def parse_log_line(line):
         file_size = int(file_size)
     except ValueError:
         return
-    
+
     # Update metrics
     total_file_size += file_size
     lines_by_status_code[status_code] += 1

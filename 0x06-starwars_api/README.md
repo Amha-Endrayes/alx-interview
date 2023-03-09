@@ -9,7 +9,7 @@ This script retrieves the character names of Star Wars movie given the movie's t
 - Node.js (version 10.14.x or above)* 
 - request
 
-* For a detailed guid on how to setup node.js click [here](https://www.pluralsight.com/guides/getting-started-with-nodejs).
+Tips: For a detailed guid on how to setup node.js click [here](https://www.pluralsight.com/guides/getting-started-with-nodejs).
 
 ## Installation
 

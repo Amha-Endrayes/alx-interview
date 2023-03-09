@@ -13,7 +13,7 @@ This script retrieves the character names from a Star Wars movie based on the mo
 
 1. Clone the repository:
 ```
-git clone [https://github.com/<username>/starwars-api.git](https://github.com/Amha-Endrayes/alx-interview/0x06-starwars_api)
+git clone https://github.com/Amha-Endrayes/alx-interview/0x06-starwars_api.git
 ```
   
 2. Navigate to the project directory:

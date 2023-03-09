@@ -1,6 +1,7 @@
 # 0x06 Starwars API
 
 This script retrieves the character names of Star Wars movie given the movie's title represented by a numeric value.
+
 7 Movies from the franchise are available, represented with movieIDs 1 - 7 and we using the [SWAPI's](https://swapi-api.alx-tools.com/) Star Wars API.
 
 ## Prerequisites

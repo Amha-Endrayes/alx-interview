@@ -37,7 +37,7 @@ node 0-starwars_characters.js <movie_id>
 
 For example, to retrieve the character names from "Return of the Jedi", which has a movie ID of 3, run the following command:
 ```
-$root@ubuntu: node 0-starwars_characters.js 1
+root@ubuntu:~/0x06$ node 0-starwars_characters.js 3
 
 Luke Skywalker
 C-3PO
@@ -60,5 +60,5 @@ Wicket Systri Warrick
 Nien Nunb
 Bib Fortuna
 
-$root@ubuntu:
+root@ubuntu:~/0x06$
 ```

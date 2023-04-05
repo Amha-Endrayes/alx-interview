@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
 Python module for determining the winner of a game where 2 players
-play a game with consecutive integers starting from 1 up to n. 
-Players take turns choosing primes and removing their multiples. 
+play a game with consecutive integers starting from 1 up to n.
+Players take turns choosing primes and removing their multiples.
 
 Winner is player who makes last move.
 """
@@ -13,7 +13,7 @@ def isWinner(x, nums):
     Parameters:
     x - rounds
     nums - numbers list
-    
+
     Returns:
     winner - Ben or Maria
     """
